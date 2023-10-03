@@ -1,14 +1,19 @@
-import React  from "react";
-import "./App.css"
+import React from "react";
+import './app.css'
+import Home from './Components/Home/Home'
+import Navbar from "./Components/Navbar/Navbar";
+import Main from "./Components/Main/Main";
+import Footer from "./Components/Footer/Footer";
+const App =() =>{
+    return (
+        <>
+<Navbar/>
+<Home/>
 
-function App() {
-  return (
-    <div >
-    hello world
-      
-        
-    </div>
-  );
+<Main/>
+<Footer/>
+        </>
+    )
+
 }
-
-export default App;
+export default App
